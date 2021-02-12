@@ -5,7 +5,12 @@ VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnimalCountingDatabase", "AnimalCountingDatabase\AnimalCountingDatabase.csproj", "{B724B574-C45B-41CB-9461-957E926C050A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimalCountingDatabase.tests", "AnimalCountingDatabase.tests\AnimalCountingDatabase.tests.csproj", "{185C00AC-14B4-4541-9659-C3CAA4A645AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnimalCountingDatabase.tests", "AnimalCountingDatabase.tests\AnimalCountingDatabase.tests.csproj", "{185C00AC-14B4-4541-9659-C3CAA4A645AA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B76D217F-45BD-48C0-B05F-D78BFD4817F4}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
