@@ -25,4 +25,7 @@ jobs:
     
       - name: Run Tests
         run: dotnet test -c Release --no-build
+
+      - name: Publish app
+        run dotnet publish -c Release -o ./out
         
